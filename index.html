@@ -11,11 +11,21 @@
   <meta property="og:title" content="Apekksha Alhat" />
   <title>Apekksha Alhat</title>
 
-  <!-- Stylesheets remain unchanged -->
+  <!-- Bootstrap core CSS -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <link href="assets/css/magnific-popup.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/animated-headline.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
 </head>
 
 <body style="background-color: #FAFAFA; font-family: 'Roboto', sans-serif; font-weight: 400">
-  <section id="home" class="tt-fullHeight">
+  <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
     <div class="intro">
       <h1 class="tt-headline letters type">
         <div class="intro-sub">Apekksha Alhat</div>
@@ -36,7 +46,35 @@
         </ul>
       </div>
     </div>
+    <div class="mouse-icon"><div class="wheel"></div></div>
   </section>
+
+  <header class="header">
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="custom-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#workEx">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#pubAndCert">Achievements</a></li>
+            <li class="testimonial-check"><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <section id="about" class="about-section section-padding">
     <div class="container">
@@ -44,38 +82,33 @@
       <div class="row">
         <div class="col-md-4 col-md-push-8">
           <div class="biography">
+            <div class="myphoto">
+              <img src="assets/images/myphoto.jpg" alt="">
+            </div>
             <ul>
               <li><strong>Name:</strong> Apekksha Alhat</li>
-              <li><strong>Location:</strong> West Melbourne, VIC</li>
+              <li><strong>Location:</strong> West Melbourne, VIC 3003</li>
               <li><strong>Phone:</strong> (+61) 455 679 233</li>
               <li><strong>Email:</strong> apekkshaalhat28@gmail.com</li>
             </ul>
           </div>
         </div>
-
         <div class="col-md-8 col-md-pull-4">
           <div class="short-info wow fadeInUp">
-            <p>Apekksha is a seasoned Full Stack Developer specializing in Java, Spring Boot, React, and Angular, with over 6 years of hands-on experience. She has led performance optimization efforts, cloud migrations, and DevOps automation in global firms like HSBC, Mastercard, and Citibank.
-            <br><br>She thrives in Agile environments and has delivered multiple business-critical applications across fintech and banking sectors. Recognized for her adaptability, leadership, and delivery excellence, she is passionate about using technology to solve complex problems.
-            </p>
+            <p>Full Stack Software Engineer with 6+ years of experience delivering enterprise-grade applications across fintech, banking, and payment sectors. Proficient in Java, Spring Boot, Angular, React, and DevOps practices (CI/CD, Jenkins, OpenShift). Recognized for optimizing legacy platforms, improving performance, and leading end-to-end solutions in Agile environments.</p>
           </div>
-
           <div class="short-info wow fadeInUp">
             <ul class="list-check">
-              <li>Java & Spring Boot</li>
-              <li>React & Angular</li>
-              <li>DevOps & CI/CD</li>
-              <li>Cloud & Containerization</li>
+              <li>Java, Spring Boot</li>
+              <li>Angular & React</li>
+              <li>DevOps & OpenShift</li>
+              <li>CI/CD & Automation</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Similar updates should be applied to Experience, Projects, Education, Skills, and Certifications sections -->
-  <!-- Replace static text with data from the resume document where relevant -->
-
 </body>
 
 </html>
